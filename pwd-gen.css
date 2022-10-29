@@ -75,3 +75,13 @@ body{
     height: 25px;
     width: 80px;
 }
+
+.owner
+{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 21px 4px #000000;
+    font-size: large;
+}

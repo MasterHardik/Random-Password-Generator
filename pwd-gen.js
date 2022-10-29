@@ -46,21 +46,6 @@ document.getElementById("gen-btn").addEventListener(
     "click",
     function ()
     {
-        PswdBox.innerHTML = generatePassword();    ;
+        PswdBox.innerHTML = generatePassword();
     }
 )
-
-
-
-    // RanPwd = password;
-    // if (password.length <= LenInput.value)
-    // {
-    //     return generatePassword(password);
-    // }// due to this we need to trim as it should owe length
-    // console.log(truncateString(password.LenInput.value));
-// PswdBox.innerHTML = getRandomData(specialSet);
-// console.log(getRandomData(specialSet));
-// console.log(getRandomData(lowerSet));
-// console.log(getRandomData(upperSet));
-// console.log(getRandomData(numberSet));
-// generatePassword();
