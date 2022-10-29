@@ -1,0 +1,77 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #29F;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 30spx;
+}
+
+.card
+{
+    position: relative;
+    justify-content: center;
+    height: 416px;
+    width: 631px;
+    border-radius: 30px;
+    margin-top: 7%;
+    padding-top: 25px;
+    box-shadow: 15px 15px 20px rgb(0, 0, 0,0.25),
+    15px -15px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(58, 80, 206);
+}
+.display
+{   
+    box-shadow: inset 5px 5px 10px rgba(0, 0 ,0 ,0.1);   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 70px;
+    width: 570px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: white;    
+    font-size: 50px;
+    padding-left: 11px;
+    
+}
+
+.row
+{
+    display: flex;
+    font-size: 27px;
+    height: 40px;
+    color: rgb(205, 247, 228);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.generate-btn
+{
+    border: transparent;
+    height: 50px;
+    width: 500px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: rgb(93, 255, 255);
+    color: rgb(35, 35, 245);
+    text-shadow: 1px 1px 2px #0000006c;
+}
+
+.check-box
+{
+    height: 25px;
+    width: 80px;
+}
