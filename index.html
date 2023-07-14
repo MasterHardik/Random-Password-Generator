@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PANDOM PASSWORD GENERATOR JS MINI PROJECT</title>
+    <link rel="stylesheet" href="pwd-gen.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="heading">GENERATE RANDOM PASSWORD</h2>
+      <div class="card">
+        <div class="display" id="pswd-box">&nbsp;</div>
+        <div class="custimize">
+          <div class="row">
+            <div class="left">Password Length</div>
+            <div class="right">
+              <input type="number" id="total-char" max="15" min="2" value="2" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left">Contains Uppercase</div>
+            <div class="right">
+              <input class="check-box" type="checkbox" id="upper-case" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left">Contains Lowercase</div>
+            <div class="right">
+              <input class="check-box" type="checkbox" id="lower-case" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left">Contains Numbers</div>
+            <div class="right">
+              <input class="check-box" type="checkbox" id="numbers" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="left">Special Character</div>
+            <div class="right">
+              <input class="check-box" type="checkbox" id="symbols" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- <div class="choice"></div> -->
+        <button class="generate-btn" id="gen-btn">Generate</button>
+      </div>
+      <footer class="owner">@MasterHardik</footer>
+      <script src="pwd-gen.js"></script>
+    </div>
+  </body>
+</html>
