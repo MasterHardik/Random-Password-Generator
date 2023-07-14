@@ -1,87 +1,117 @@
-*
-{
+*{
     box-sizing: border-box;
     margin: 0 auto;
 }
 
-body{
-    background-color: #29F;
+.container{
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 100%;
 }
+
 .heading
 {
     display: flex;
     justify-content: center;
     font-size:40px;
-    color:white;
-    text-shadow: 2px 2px 4px #000000;
-    margin-top: 30spx;
+    color:black;
+    text-shadow: 1px 1px 1px wheat;
+    padding-top: 10px;
 }
 
 .card
 {
     position: relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 416px;
-    width: 631px;
+    align-items: center;
+    height: 90vh;
+    width: 60vw;
     border-radius: 30px;
-    margin-top: 7%;
-    padding-top: 25px;
-    box-shadow: 15px 15px 20px rgb(0, 0, 0,0.25),
-    15px -15px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: rgb(58, 80, 206);
+    background-color: #34495e;
+    background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
 }
 .display
 {   
-    box-shadow: inset 5px 5px 10px rgba(0, 0 ,0 ,0.1);   
+    /* box-shadow: inset 5px 5px 10px rgba(0, 0 ,0 ,0.1);    */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     display: flex;
     justify-content: center;
     position: relative;
     height: 70px;
-    width: 570px;
+    width: 90%;
     border-radius: 20px;
     margin-bottom: 20px;
     background-color: white;    
     font-size: 50px;
     padding-left: 11px;
-    
+    overflow:hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .row
 {
     display: flex;
-    font-size: 27px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
     height: 40px;
     color: rgb(205, 247, 228);
     text-shadow: 2px 2px 4px #000000;
+    width: 100%;
+    margin-top: 8px;
 }
+
+.left,.right{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+}
+
 
 .generate-btn
 {
     border: transparent;
     height: 50px;
-    width: 500px;
+    width: 50%;
     font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    background-color: rgb(93, 255, 255);
-    color: rgb(35, 35, 245);
-    text-shadow: 1px 1px 2px #0000006c;
+    background-color:#27ae60;
+    color: black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .check-box
 {
+    margin-left: 50%;
     height: 25px;
-    width: 80px;
+    width: 25px;
 }
 
 .owner
 {
     display: flex;
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 21px 4px #000000;
+    font-weight: bold;
     font-size: large;
+}
+
+
+.custimize{
+    margin-left: 10%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
 }
